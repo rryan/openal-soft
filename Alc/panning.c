@@ -386,11 +386,11 @@ ALvoid aluInitPanning(ALCdevice *Device)
             Speaker2Chan[2] = FrontCenter;
             Speaker2Chan[3] = FrontRight;
             Speaker2Chan[4] = BackRight;
-            SpeakerAngle[0] = F_PI/180.0f * -110.0f;
-            SpeakerAngle[1] = F_PI/180.0f *  -30.0f;
+            SpeakerAngle[0] = F_PI/180.0f * -144.0f;
+            SpeakerAngle[1] = F_PI/180.0f *  -72.0f;
             SpeakerAngle[2] = F_PI/180.0f *    0.0f;
-            SpeakerAngle[3] = F_PI/180.0f *   30.0f;
-            SpeakerAngle[4] = F_PI/180.0f *  110.0f;
+            SpeakerAngle[3] = F_PI/180.0f *   72.0f;
+            SpeakerAngle[4] = F_PI/180.0f *  144.0f;
             layoutname = "layout_surround51";
             break;
 
@@ -401,11 +401,11 @@ ALvoid aluInitPanning(ALCdevice *Device)
             Speaker2Chan[2] = FrontCenter;
             Speaker2Chan[3] = FrontRight;
             Speaker2Chan[4] = SideRight;
-            SpeakerAngle[0] = F_PI/180.0f * -90.0f;
-            SpeakerAngle[1] = F_PI/180.0f * -30.0f;
-            SpeakerAngle[2] = F_PI/180.0f *   0.0f;
-            SpeakerAngle[3] = F_PI/180.0f *  30.0f;
-            SpeakerAngle[4] = F_PI/180.0f *  90.0f;
+            SpeakerAngle[0] = F_PI/180.0f * -144.0f;
+            SpeakerAngle[1] = F_PI/180.0f *  -72.0f;
+            SpeakerAngle[2] = F_PI/180.0f *    0.0f;
+            SpeakerAngle[3] = F_PI/180.0f *   72.0f;
+            SpeakerAngle[4] = F_PI/180.0f *  144.0f;
             layoutname = "layout_side51";
             break;
 
@@ -417,12 +417,12 @@ ALvoid aluInitPanning(ALCdevice *Device)
             Speaker2Chan[3] = FrontRight;
             Speaker2Chan[4] = SideRight;
             Speaker2Chan[5] = BackCenter;
-            SpeakerAngle[0] = F_PI/180.0f * -90.0f;
-            SpeakerAngle[1] = F_PI/180.0f * -30.0f;
-            SpeakerAngle[2] = F_PI/180.0f *   0.0f;
-            SpeakerAngle[3] = F_PI/180.0f *  30.0f;
-            SpeakerAngle[4] = F_PI/180.0f *  90.0f;
-            SpeakerAngle[5] = F_PI/180.0f * 180.0f;
+            SpeakerAngle[0] = F_PI/180.0f * -120.0f;
+            SpeakerAngle[1] = F_PI/180.0f *  -60.0f;
+            SpeakerAngle[2] = F_PI/180.0f *    0.0f;
+            SpeakerAngle[3] = F_PI/180.0f *   60.0f;
+            SpeakerAngle[4] = F_PI/180.0f *  120.0f;
+            SpeakerAngle[5] = F_PI/180.0f *  180.0f;
             layoutname = "layout_surround61";
             break;
 
